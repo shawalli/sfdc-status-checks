@@ -1,2 +1,3 @@
 # sfdc-status-checks
-GitHub status checks for Salesforce change sets
+This project is a collection of status checks for Salesforce projects. Each
+status check may be run independently from the others.
