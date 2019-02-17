@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ruleset name="Base Linting Rules"
+    xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+
+    <description>
+        This ruleset ensures that all code changes adhere to a basic set of standards
+    </description>
+
+    <rule ref="category/apex/codestyle.xml/ClassNamingConventions" />
+    <rule ref="category/apex/codestyle.xml/ForLoopsMustUseBraces" />
+    <rule ref="category/apex/codestyle.xml/IfElseStmtsMustUseBraces" />
+    <rule ref="category/apex/codestyle.xml/IfStmtsMustUseBraces" />
+    <rule ref="category/apex/codestyle.xml/MethodNamingConventions" />
+    <rule ref="category/apex/codestyle.xml/OneDeclarationPerLine" strictMode="true" />
+    <rule ref="category/apex/codestyle.xml/VariableNamingConventions" />
+    <rule ref="category/apex/codestyle.xml/WhileLoopsMustUseBraces" />
+</ruleset>
